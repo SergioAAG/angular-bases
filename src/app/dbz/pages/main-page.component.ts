@@ -22,6 +22,7 @@ export class MainPageComponent {
   }
 
   public onNewCharacter( character:Character): void {
+
     this.dbzService.addCharacter(character);
   }
 }
